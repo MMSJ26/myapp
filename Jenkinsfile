@@ -7,7 +7,7 @@ pipeline {
     stages{
         stage('clone'){
             steps{
-                git 'https://github.com/MMSJ26/myappsemexo2.git'
+                git 'https://github.com/MMSJ26/myapp.git'
             }
         }
         stage('Build'){
